@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#container{
+  width: 400px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+
+input{
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 5px;
+  -moz-box-sizing: border-box;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-radius: 5px;
+}
+
+.list{
+  margin:15px
+  
+}
+
+.list>li{
+  background-color: rgb(199, 195, 195);
+  padding: 5px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  color: darkblue;
+}
+
+.btn{
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 0;
+}
+
+.btn>button{
+  padding: 5px;
+  width: 60px;
+  background-color: cadetblue;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.inputDiv{
+  padding-bottom: 5px;
+}
